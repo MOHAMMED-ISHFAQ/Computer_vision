@@ -107,5 +107,5 @@ def main():
                 scaled_image = scale_image(image)
                 st.image(scaled_image, caption="Scaled Image", channels="BGR", use_column_width=True)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
